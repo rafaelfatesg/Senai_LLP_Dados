@@ -1,12 +1,9 @@
-import java.util.Random;
+
 
 public class Main {
     public static void main(String[] args) {
 
-        Random aleatorio = new Random();
-
-        // sorteia número de 1 a 6
-        int numero = aleatorio.nextInt(6) + 1;
+        int numero = (int) (Math.random() * 6) + 1;
 
         System.out.println("Número sorteado: " + numero);
 
